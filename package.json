@@ -1,0 +1,15 @@
+{
+    "name": "weather-app",
+    "version": "1.0.0",
+    "description": "A simple weather application using Weatherbit API",
+    "main": "index.html",
+    "scripts": {
+        "start": "live-server"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "live-server": "^1.2.1"
+    }
+}
