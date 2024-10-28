@@ -12,12 +12,18 @@ A simple single-page web application that fetches and displays current weather d
 
 ## Setup
 1. Clone the repository.
-2. Create a `.env` file and add your Weather API key: WEATHER_API_KEY = your_api_key
+2. Create a `.env` file and add your Weather API key: API_KEY = your_api_key
 
 3. Run the app by opening  `index.html` in your browser.
 
+## Usage
 
-## Technologies Used
+Type in the name of the city you want to search for.
+Click Get Forecast to fetch and display the 5-day forecast.
+File Structure
+
+
+ Technologies Used
 
 - HTML, CSS, JavaScript
 - Axios for API requests
