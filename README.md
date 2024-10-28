@@ -1,6 +1,6 @@
 # Weather App
 
-A simple single-page web application that fetches and displays current weather data using the Weatherbit API.
+A simple single-page web application that fetches and displays current weather data using the WeatherAPI.
 
 ## Features
 
