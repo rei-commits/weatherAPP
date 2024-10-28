@@ -1,39 +1,85 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
   margin: 0;
+  background: linear-gradient(to bottom, #a1c4fd, #c2e9fb);
+  color: #333;
 }
 
 .container {
   text-align: center;
-  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  max-width: 900px;
+  width: 90%;
 }
 
-.forecast-container {
+h1 {
+  color: #333;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+input, button {
+  padding: 0.6rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+input {
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+#forecast {
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  gap: 10px;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
-.forecast {
-  background: white;
-  padding: 15px;
+.weather-day {
+  background: #f3f4f6;
   border-radius: 8px;
-  width: 100px;
-  animation: fadeIn 0.5s ease;
+  padding: 1rem;
+  width: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.weather-day:hover {
+  transform: translateY(-5px);
+}
+
+.weather-day img {
+  width: 50px;
+  margin-bottom: 0.5rem;
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.error {
-  color: red;
-  margin-top: 10px;
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

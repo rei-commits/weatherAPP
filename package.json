@@ -1,17 +1,12 @@
 {
-    "name": "weather-app",
-    "version": "1.0.0",
-    "description": "A simple weather application using Weatherbit API",
-    "main": "index.html",
-    "scripts": {
-        "start": "live-server"
-    },
-    "author": "Your Name",
-    "license": "MIT",
-    "dependencies": {
-        "axios": "^0.21.2"
-    },
-    "devDependencies": {
-        "live-server": "^1.2.1"
-    }
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "A simple single-page web application that fetches and displays current weather data using the Weatherbit API.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

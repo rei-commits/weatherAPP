@@ -15,3 +15,10 @@ A simple single-page web application that fetches and displays current weather d
 2. Create a `.env` file and add your Weather API key: WEATHER_API_KEY = your_api_key
 
 3. Run the app by opening  `index.html` in your browser.
+
+
+## Technologies Used
+
+- HTML, CSS, JavaScript
+- Axios for API requests
+- Modular JavaScript for code organization
