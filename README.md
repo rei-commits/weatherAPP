@@ -4,15 +4,14 @@ A simple single-page web application that fetches and displays current weather d
 
 ## Features
 
-- Fetches current weather data for a specified city.
-- Displays temperature, weather description, observation time, and timezone.
-- Allows optional country code input to refine the search.
+- Fetches current weather data for a specified - Fetches real-time weather data.
+- Displays a 5-day forecast with conditions, temperature, and icons.
+- Animated transitions for a pleasant user experience.
 
 ## Getting Started
 
-### Installation
+## Setup
+1. Clone the repository.
+2. Create a `.env` file and add your Weather API key: WEATHER_API_KEY = your_api_key
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/weather-app.git
-   cd weather-app
+3. Run the app by opening  `index.html` in your browser.
